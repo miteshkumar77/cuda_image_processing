@@ -7,6 +7,8 @@ image processing tasks in live video feeds.
 
 `slow_convolve.py` contains the standard `O(image_size * kernel_size)` convolution algorithm that happens synchronously, 
 one pixel at a time. 
+
 `cuda_convolve.py` contains the CUDA implementation of this where a thread is launched to compute the convolved output 
 of reach pixel asynchronously. 
+
 `main.ipynb` contains several different kernels and the different effects can be observed. 
