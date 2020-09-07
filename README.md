@@ -15,6 +15,6 @@ concurrently.
 * `canny_edge_detection.py` has the standard canny edge detection procedure that uses gradient changes to mark pixels that form an edge. 
 The procedure was found at this [wiki article](https://en.wikipedia.org/wiki/Canny_edge_detector#Process_of_Canny_edge_detection_algorithm)
 
-* `cuda_canny_edge_detection.py` implements this procesure with concurrency from CUDA. 
+* `cuda_canny_edge_detection.py` implements this procedure with concurrency from CUDA. 
 
 * `convolve_test.ipynb` is the main file that demonstrates the two procedures. 
