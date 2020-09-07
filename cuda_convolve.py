@@ -36,7 +36,6 @@ def convolution_rgb(input_img, output_img, kernel):
                         output_img[i][j][color] += input_img[aT][bT][color] * kernel[a][b] 
 
 def convolve(input_img, kernel):
-    print(input_img.shape)
     output_img = input_img.copy() 
     data_size = len(output_img) * len(output_img[0])
     threadsperblock = 1024
